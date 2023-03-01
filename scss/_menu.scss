@@ -107,26 +107,25 @@
     }
 
     &.current > a {
-        color:$secondary-color;
+      color: $secondary-color;
     }
   }
 
   .nav-link {
     display: inline-block;
-    position:relative;
-    font-size:18px;
-    text-transform:uppercase;
-    padding:1rem 0;
-    font-weight:300;
-    color:#fff;
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: #fff;
     text-decoration: none;
     @include easeOut;
 
     &:hover {
-        color:$secondary-color;
+      color: $secondary-color;
     }
   }
-
 }
 
 //Delay each nav item slide by 0.1s
