@@ -191,6 +191,22 @@ h6 {
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
+.about-info a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  border: 3px #fff solid;
+  padding: 1.5rem 1.5rem;
+  justify-self: center;
+  transition: all 0.5s ease-out; }
+  .about-info a:hover {
+    padding: 0.3rem 1rem;
+    background: #eece1a;
+    color: #000; }
+    .about-info a:hover span {
+      color: #000; }
+  .about-info a i {
+    margin-right: 15px; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;

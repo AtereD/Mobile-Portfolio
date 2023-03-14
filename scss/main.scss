@@ -116,7 +116,30 @@ h6 {
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
+
+  
 }
+.about-info a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  border: 3px #fff solid;
+  padding: 1.5rem 1.5rem;
+  justify-self: center;
+  @include easeOut;
+
+  &:hover {
+    padding: 0.3rem 1rem;
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+    span {
+      color: set-text-color($secondary-color);
+    }
+  }
+  i {
+    margin-right: 15px;
+  }
+}
+
 
 // Work/Projects
 .projects {
